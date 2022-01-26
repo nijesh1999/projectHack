@@ -1,0 +1,125 @@
+html {
+  scroll-behavior: smooth;
+}
+h2,
+p {
+  padding: 0%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #333;
+  background-color: #e5e5e5;
+}
+.user-list,
+.titles {
+  margin-left: 300px;
+  padding: 20px;
+}
+.titles,
+.tit {
+  color: red;
+}
+.sidebar {
+  background-color: #87cefa;
+  float: left;
+  width: 300px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  box-shadow: 5px 5px 15px #ffffff;
+}
+.email {
+  color: black;
+}
+.sidebar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid rgb(214, 217, 218);
+  box-shadow: 10px 5px 15px #ffffff;
+  margin-top: 100px;
+}
+
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  background: #1a4bec;
+  color: whitesmoke;
+}
+.user-container {
+  background-color: #ffffff;
+  padding: 3px;
+  border-radius: 5px;
+}
+.user-avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.param {
+  display: inline-block;
+}
+.param1 {
+  text-align: center;
+  padding: 5px;
+}
+
+.inbox-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.box-data {
+  padding: 3px;
+  border: 1px solid black;
+  text-align: left;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+.p-data {
+  margin-left: 10px;
+}
+
+.draft-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.txt-area {
+  padding: 3px;
+}
+button {
+  background-color: #3a66f7;
+  border: none;
+  color: rgb(253, 252, 252);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.8s ease;
+}
+textarea {
+  border: none;
+  outline: none;
+}
+
+.p-draft {
+  margin-left: 15px;
+  padding: 10px;
+}
